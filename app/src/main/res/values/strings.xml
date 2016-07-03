@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">jp-dynamic-load-demo</string>
+
+
+    <string name="main_goto_plugin">跳转至插件</string>
+</resources>

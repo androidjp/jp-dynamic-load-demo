@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\plugin_activity_loading.xml",
+        "source": "D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\plugin_activity_loading.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\plugin_activity_loading_bitmap.9.png",
+        "source": "D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\plugin_activity_loading_bitmap.9.png"
+    }
+]
