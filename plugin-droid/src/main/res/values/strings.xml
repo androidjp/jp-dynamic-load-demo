@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">plugin-droid</string>
+    <string name="to_master">呼叫宿主</string>
+</resources>
