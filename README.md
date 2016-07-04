@@ -1,4 +1,3 @@
-# jp-dynamic-load-demo
 # 对 360插件化开发框架：Droid Plugin 的一个简易Demo
   
   当中用到的技术：
