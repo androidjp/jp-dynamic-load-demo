@@ -92,6 +92,7 @@ public class ApkItemViewHolder extends RecyclerView.ViewHolder {
 
     // 安装Apk的线程, Rx无法使用.
     private class InstallApkTask extends AsyncTask<Void, Void, String> {
+
         @Override
         protected void onPostExecute(String v) {
             Toast.makeText(mContext, v, Toast.LENGTH_LONG).show();

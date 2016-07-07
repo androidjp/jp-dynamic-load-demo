@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\src\\com\\morgoo\\droidplugin\\pm\\IPluginManager.aidl
+ * Original file: /home/androidjp/AndroidStudioProjects/jp-dynamic-load-demo/lib-droid-plugin/src/com/morgoo/droidplugin/pm/IPluginManager.aidl
  */
 package com.morgoo.droidplugin.pm;
 /**

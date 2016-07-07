@@ -1,10 +1,18 @@
 [
     {
-        "merged": "D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\plugin_activity_loading.xml",
-        "source": "D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\plugin_activity_loading.xml"
+        "merged": "/home/androidjp/AndroidStudioProjects/jp-dynamic-load-demo/lib-droid-plugin/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/plugin_activity_loading_bitmap.9.png",
+        "source": "/home/androidjp/AndroidStudioProjects/jp-dynamic-load-demo/lib-droid-plugin/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/plugin_activity_loading_bitmap.9.png"
     },
     {
-        "merged": "D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\plugin_activity_loading_bitmap.9.png",
-        "source": "D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\plugin_activity_loading_bitmap.9.png"
+        "merged": "/home/androidjp/AndroidStudioProjects/jp-dynamic-load-demo/D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\plugin_activity_loading.xml",
+        "source": "/home/androidjp/AndroidStudioProjects/jp-dynamic-load-demo/D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\plugin_activity_loading.xml"
+    },
+    {
+        "merged": "/home/androidjp/AndroidStudioProjects/jp-dynamic-load-demo/D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\plugin_activity_loading_bitmap.9.png",
+        "source": "/home/androidjp/AndroidStudioProjects/jp-dynamic-load-demo/D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\plugin_activity_loading_bitmap.9.png"
+    },
+    {
+        "merged": "/home/androidjp/AndroidStudioProjects/jp-dynamic-load-demo/lib-droid-plugin/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4/plugin_activity_loading.xml",
+        "source": "/home/androidjp/AndroidStudioProjects/jp-dynamic-load-demo/lib-droid-plugin/build/intermediates/bundles/debug/res/drawable-xxhdpi-v4/plugin_activity_loading.xml"
     }
 ]

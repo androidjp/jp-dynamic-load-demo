@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jp-dynamic-load-demo.iml" filepath="$PROJECT_DIR$/jp-dynamic-load-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib-droid-plugin/lib-droid-plugin.iml" filepath="$PROJECT_DIR$/lib-droid-plugin/lib-droid-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugin-droid/plugin-droid.iml" filepath="$PROJECT_DIR$/plugin-droid/plugin-droid.iml" />
+    </modules>
+  </component>
+</project>

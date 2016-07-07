@@ -26,6 +26,7 @@ import com.androidjp.jp_dynamic_load_demo.controllers.ApkListAdapter;
 import com.androidjp.jp_dynamic_load_demo.controllers.ApkOperator;
 import com.morgoo.droidplugin.pm.PluginManager;
 
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -47,6 +48,7 @@ public class StartFragment extends Fragment {
 
     private ApkListAdapter mApkListAdapter; // 适配器
     private InstallApkReceiver mInstallApkReceiver; // Apk安装接收器
+
 
     // 服务连接
     private final ServiceConnection mServiceConnection = new ServiceConnection() {
@@ -97,9 +99,9 @@ public class StartFragment extends Fragment {
     // 加载Apk
     private void loadApks() {
         // 异步加载, 防止Apk过多, 影响速度
-        Observable.just(getApkFromInstall())
-                .subscribeOn(Schedulers.newThread())
-                .observeOn(AndroidSchedulers.mainThread())
+        Observable.just(getApkFromInstall())///由于“getApkFromInstall() 方法加载apk列表比较慢，则使用just 进行异步执行”
+                .subscribeOn(Schedulers.newThread())//放置到一个新的线程中执行
+                .observeOn(AndroidSchedulers.mainThread())//让主线程去观察
                 .subscribe(mApkListAdapter::setApkItems);
     }
 
@@ -127,12 +129,15 @@ public class StartFragment extends Fragment {
     private class InstallApkReceiver extends BroadcastReceiver {
 
         // 注册监听
+        //主要：配置IntentFilter（PluginManager中定义的几个<action>，都加进去，在<data>方面，加上“package”）
         public void registerReceiver(Context context) {
             IntentFilter filter = new IntentFilter();
             filter.addAction(PluginManager.ACTION_PACKAGE_ADDED);
             filter.addAction(PluginManager.ACTION_PACKAGE_REMOVED);
             filter.addDataScheme("package");
             context.registerReceiver(this, filter);
+
+
         }
 
         // 关闭监听

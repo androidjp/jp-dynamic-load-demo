@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: D:\\AndroidStudioCode\\jp-dynamic-load-demo\\lib-droid-plugin\\src\\android\\app\\IServiceConnection.aidl
+ * Original file: /home/androidjp/AndroidStudioProjects/jp-dynamic-load-demo/lib-droid-plugin/src/android/app/IServiceConnection.aidl
  */
 package android.app;
 /** @hide */

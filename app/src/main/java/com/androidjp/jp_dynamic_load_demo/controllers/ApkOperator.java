@@ -95,6 +95,7 @@ public class ApkOperator {
     private boolean isApkInstall(ApkItem apkItem) {
         PackageInfo info = null;
         try {
+            /*看其是否能够获取到对应的插件包信息，可获取到，则已安装*/
             info = PluginManager.getInstance().getPackageInfo(apkItem.packageInfo.packageName, 0);
         } catch (RemoteException e) {
             e.printStackTrace();
@@ -127,8 +128,8 @@ public class ApkOperator {
     // 打开Apk
     public void openApk(final ApkItem item) {
         PackageManager pm = mActivity.getPackageManager();
-        Intent intent = pm.getLaunchIntentForPackage(item.packageInfo.packageName);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        Intent intent = pm.getLaunchIntentForPackage(item.packageInfo.packageName);//获取插件应用的入口Intent
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);//以singleTask的模式启动插件的入口Activity
         mActivity.startActivity(intent);
     }
 

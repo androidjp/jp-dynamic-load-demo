@@ -6,7 +6,7 @@ import android.graphics.drawable.Drawable;
 
 /**
  * Apk项的条目
- *
+ * 包含的apk信息：图标、标题、版本名称、版本号、apk路径、包信息（包含application信息（包含source路径等）等）
  * @author wangchenlong
  */
 public class ApkItem {
@@ -24,7 +24,10 @@ public class ApkItem {
         pi.applicationInfo.sourceDir = path;
         pi.applicationInfo.publicSourceDir = path;
 
+        //设置完成后，packageInfo即有了对象的路径（资源路径和公共资源路径）
+
         try {
+            //通过：包中的应用信息 --> packageManager --> 获取应用Icon
             icon = pm.getApplicationIcon(pi.applicationInfo);
         } catch (Exception e) {
             icon = pm.getDefaultActivityIcon();
